@@ -108,6 +108,7 @@ public class DimensionalDoorsInitializer implements ModInitializer {
 
 	@Override
     public void onInitialize() {
+		System.out.println("HERE");
 		apiSubscribers = FabricLoader.getInstance().getEntrypoints("dimdoors:api", DimensionalDoorsApi.class);
     	dimDoorsMod = FabricLoader.getInstance().getModContainer("dimdoors").orElseThrow(RuntimeException::new);
     	ServerLifecycleEvents.SERVER_STARTING.register(minecraftServer -> server = minecraftServer);

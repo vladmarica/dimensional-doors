@@ -11,9 +11,9 @@ import org.dimdev.dimdoors.entity.ModEntityTypes;
 import org.dimdev.dimdoors.fluid.ModFluids;
 import org.dimdev.dimdoors.rift.targets.RandomTarget;
 import org.dimdev.dimdoors.sound.ModSoundEvents;
-import org.dimdev.matrix.Matrix;
-import org.dimdev.matrix.Registrar;
-import org.dimdev.matrix.RegistryEntry;
+import org.dimdev.dimdoors.matrix.Matrix;
+import org.dimdev.dimdoors.matrix.Registrar;
+import org.dimdev.dimdoors.matrix.RegistryEntry;
 
 import java.util.Collections;
 

@@ -46,8 +46,7 @@ public class MonolithEntity extends MobEntity {
     private static final TrackedData<Float> SCALE = DataTracker.registerData(MonolithEntity.class, TrackedDataHandlerRegistry.FLOAT);
 	private static final TrackedData<Float> PITCH = DataTracker.registerData(MonolithEntity.class, TrackedDataHandlerRegistry.FLOAT);
     private static final float EYE_HEIGHT_PERCENTAGE = 0.55f;
-    @Environment(EnvType.CLIENT)
-    private static final Random clientRandom = Random.create();
+
 
     private int soundTime = 0;
     private final int aggroCap;
@@ -241,6 +240,8 @@ public class MonolithEntity extends MobEntity {
 		if (aggro < 120) {
 			return;
 		}
+
+		Random clientRandom = Random.create();
 		int count = 10 * aggro / MAX_AGGRO;
 		for (int i = 1; i < count; ++i) {
 			//noinspection ConstantConditions

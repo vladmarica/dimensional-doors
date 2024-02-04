@@ -12,9 +12,9 @@ import net.minecraft.util.registry.Registry;
 import org.dimdev.dimdoors.block.door.DimensionalTrapdoorBlock;
 import org.dimdev.dimdoors.block.door.data.DoorData;
 import org.dimdev.dimdoors.block.door.data.DoorDataReader;
-import org.dimdev.matrix.Matrix;
-import org.dimdev.matrix.Registrar;
-import org.dimdev.matrix.RegistryEntry;
+import org.dimdev.dimdoors.matrix.Matrix;
+import org.dimdev.dimdoors.matrix.Registrar;
+import org.dimdev.dimdoors.matrix.RegistryEntry;
 
 import java.util.HashMap;
 import java.util.Map;
